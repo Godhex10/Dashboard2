@@ -36,7 +36,7 @@ Ordres.forEach((order) => {
                 <td>${order.productNumber}</td>
                 <td>${order.paymentStatus}</td>
                 <td class="${
-                  order.shopping === "Declined"
+                  order.shopping === "High"
                     ? "danger"
                     : order.shopping === "Pending"
                     ? "warning"

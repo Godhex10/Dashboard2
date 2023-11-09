@@ -111,7 +111,7 @@ small {
 .profile-photo {
   width: 2.8rem;
   height: 2.8rem;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   overflow: hidden;
 }
 
@@ -240,7 +240,7 @@ aside .sidebar .message-count {
 
 /* ============== MAIN ============== */
 main {
-  margin-top: 1.4rem;
+  margin-top: 2.7rem;
 }
 
 main .date {
