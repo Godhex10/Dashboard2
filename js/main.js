@@ -38,7 +38,7 @@ Ordres.forEach((order) => {
                 <td class="${
                   order.shopping === "High"
                     ? "danger"
-                    : order.shopping === "Pending"
+                    : order.shopping === "medium"
                     ? "warning"
                     : "primary"
                 }">${order.shopping}</td>
