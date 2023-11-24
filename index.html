@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Threat Intelligence Platform</title>
+    <title>Responsive Admin Dashboard Using HTML CSS & JavaScript</title>
     <!-- MATERIAL CDN -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"/>
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
@@ -35,11 +35,11 @@
 
         <!-- =================== START OF SIDEBAR =================== -->
         <div class="sidebar">
-          <a href="#">
+          <a href="#" class="active">
             <span class="material-icons-sharp">dashboard</span>
             <h3>Dashboard</h3>
           </a>
-          <a href="#" class="active">
+          <a href="#">
             <span><i class="fa-solid fa-circle-exclamation"></i></span>
             <h3>Mentions</h3>
             <span class="message-count">5</span>
@@ -79,8 +79,7 @@
             <h3>Logout</h3>
           </a>
           <div class="theme-toggler">
-            <span class="active material-icons-sharp">light_mode</span>
-            <span class="material-icons-sharp">dark_mode</span>
+            
           </div>
         </div>
         <!-- =================== END OF SIDEBAR =================== -->
@@ -266,15 +265,14 @@
           <!-- =================== START OF ITEM =================== -->
           <div class="item online">
             <div class="icon">
-              <span class="material-icons-sharp">shopping_cart</span>
+              <i class="fa-solid fa-screwdriver-wrench" style="font-size: 15px;"></i>
             </div>
             <div class="right">
               <div class="info">
-                <h3>ONLINE ORDERS</h3>
-                <small class="text-muted">Lest 24 Hours</small>
+                <h3>Shodan</h3>
               </div>
-              <h5 class="success">+39%</h5>
-              <h3>3849</h3>
+              <!-- <h5 class="success">+39%</h5> -->
+              <h3 class="success">Open</h3>
             </div>
           </div>
           <!-- =================== END OF ITEM =================== -->
@@ -282,15 +280,15 @@
           <!-- =================== START OF ITEM =================== -->
           <div class="item offline">
             <div class="icon">
-              <span class="material-icons-sharp">local_mall</span>
+              <i class="fa-solid fa-screwdriver-wrench" style="font-size: 15px;"></i>
             </div>
             <div class="right">
               <div class="info">
-                <h3>OFFLINE ORDERS</h3>
-                <small class="text-muted">Lest 24 Hours</small>
+                <h3>WireShack</h3>
+                <!-- <small class="text-muted">Lest 24 Hours</small> -->
               </div>
-              <h5 class="danger">-17%</h5>
-              <h3>1100</h3>
+              <!-- <h5 class="danger">-17%</h5> -->
+              <h3 class="success">Open</h3>
             </div>
           </div>
           <!-- =================== END OF ITEM =================== -->
@@ -298,22 +296,22 @@
           <!-- =================== START OF ITEM =================== -->
           <div class="item customers">
             <div class="icon">
-              <span class="material-icons-sharp">person</span>
+              <i class="fa-solid fa-screwdriver-wrench" style="font-size: 15px;"></i>
             </div>
             <div class="right">
               <div class="info">
-                <h3>NEW CUSTOMERS</h3>
-                <small class="text-muted">Lest 24 Hours</small>
+                <h3>Yara</h3>
+                <!-- <small class="text-muted">Lest 24 Hours</small> -->
               </div>
-              <h5 class="success">+25%</h5>
-              <h3>849</h3>
+              <!-- <h5 class="success">+25%</h5> -->
+              <h3 class="success">Open</h3>
             </div>
           </div>
           <!-- =================== END OF ITEM =================== -->
           <div class="item add-product">
             <div>
               <span class="material-icons-sharp">add</span>
-              <h3>Add Product</h3>
+              <h3>Add Tool</h3>
             </div>
           </div>
         </div>
